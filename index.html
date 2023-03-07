@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <script src="css/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.png" type="">
+
+    <title>myBURGER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <!--reservation-->
+    <div class="reservation" id="reservation">
+        <i id="closeReser" class="fas fa-bars fa-times"></i>
+
+        <div class="res-bg">
+            <div class="text">
+                <h3>Book a Table</h3>
+
+            </div>
+            <form action="">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Phone Number">
+                <input type="email" placeholder="Email">
+                <input type="number" placeholder="How Many">
+                <input type="date" placeholder="Booking Date">
+                <input type="time" placeholder="Time">
+                <textarea name="" id="" cols="30" rows="2" placeholder="Add A Special Request(Optional)"></textarea>
+            </form>
+            <button class="btn">Find Table</button>
+        </div>
+
+    </div>
+
+    <!--header-->
+    <header class="header" id="header">
+        <nav>
+            <div class="logo">myBURGER</div>
+            <i id="OpenMenu" class="fa-solid fa-bars"></i>
+            <i id="book" class="fa-solid fa-utensils"></i>
+            <div class="menu" >
+                <ul>
+                    <li class="active"><a href="home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#recipies">Recepies</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#team">Team</a></li>
+                </ul>
+                <a href="#" class="btn btnResrv">Reservation</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="home" id="home">
+        <div class=" swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1 bg-overlay">
+                    <div class="content">
+                        <h3>Sri Lankan Food</h3>
+                        <h1>Hot and Ready to Serve</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptas a aliquid iste! Totam modi quis esse, mollitia natus, officiis adipisci nostrum quos earum saepe explicabo animi quo! Ducimus, commodi!</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide2 bg-overlay">
+                    <div class="content">
+                        <h3>Restaurant Offers You</h3>
+                        <h1>The best experience!</h1>
+                        <a href="#" class="btn btnResrv">Get a Reservation Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide slide3 bg-overlay">
+                    <div class="content">
+                        <h3>Hello, We are restaurant</h3>
+                        <h1>We serve quality food</h1>
+                        <a href="#menu" class="btn">View menu</a> 
+                    </div>
+                </div>
+            </div>
+        
+            <div class="swiper-button-next btn-swip"></div>
+            <div class="swiper-button-prev btn-swip"></div>
+
+        </div>
+    </div>
+
+    <!--about-->
+    <section class="about sec" id="about">
+        <div class="container">
+            <div class="sec-head">
+                <span>Hello dear</span>
+                <h2>Welcome To Our Restaurant</h2>
+                <img src="images/shape-4.png" alt="">
+            </div>
+            <div class="content">
+                <div class="div-p">
+                    <p>We’ve got everything you’re looking for, from the Classic, to fusion flavors like the Kimchi, to the Veggie, 
+                        for our vegetarian friends. We’re committed to serving delicious, fresh fare that will make you re-think how burgers should taste. Check out our menu for our variety 
+                        of hand-crafted burgers and see why people come to us for the Best Burger in Houston.<br>
+
+                        Want The Burger Joint food truck for your next event? We’ll be there! No matter what 
+                        the occasion, our mouth-watering burgers can help make any event an extra special one. 
+                        More info on our Catering page.<br>
+                        
+                        Come have a taste of what many reviews are calling “Houston’s Best Burger”.<br>
+                        
+                        Here at Burger Joint, we know what goes into our food. From our house mayo and special dipping sauces, to our hand-cut, twice fried french fries, we’re all about quality ingredients. Our patties are no exception. Freshly ground Angus beef, made from a proprietary blend of cuts. We tested numerous versions to bring you flavorful, juicy meat that is sure to satisfy.</p>
+                </div>
+                <div class="boxs">
+                    <div class="box">
+                        <span>2010</span>
+                        <h3>Grand Opening</h3>
+                        <p>First Opening was in Anuradhapura.</p>
+                    </div>
+                    <div class="box">
+                        <span>2020</span>
+                        <h3>Second Branch</h3>
+                        <p>Our Second branch was opened in Kurunegeala.</p>
+                    </div>
+                    <div class="box">
+                        <span>2013</span>
+                        <h3>Great Taste Award</h3>
+                        <p>We grt the Tasty Award in 2013</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--recipes-->
+    <section class="recipes" id="recipies">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Natural Ingredients</span>
+                <h2>Delicious Recipes</h2>
+            </div>
+            <div class="arrow-bottom">
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="boxs">
+                <div class="box">
+                    <img src="images/f1.jpg" alt="" height="300" width="300">
+                    <span>Start Eating better</span>
+                    <h4>Daily New Fresh Menus</h4>
+                    <p>Retuarant help you treat yourself with different meal everyday, 
+                        thank to our daily changing menus and our awesome creative chefs!</p>
+                </div>
+                <div class="box">
+                    <img src="images/f2.jpg" alt="" height="300" width="300">
+                    <span>Qulity is the heart</span>
+                    <h4>Fresh Ingrediants, Tasty meals</h4>
+                    <p>Who said healthy food can't also be delicious? Restaurant creative chefs use 
+                        fresh and seasonal ingrediants to make affordable.</p>
+                </div>
+                <div class="box">
+                    <img src="images/f3.jpg" alt="" height="300" width="350">
+                    <span>Hot & ready to serve</span>
+                    <h4>Creative & Talented Chefs</h4>
+                    <p>Restaurant have offered a team of culinary professionals that make delectable
+                        dishes at memorable events for both private clientele.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--menu-->
+    <section class="sec-menu" id="menu">
+        <div class="small-sec">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Natural Ingredients</span>
+                <h2>Delicious Recipes</h2>
+            </div>
+            <div class="arrow-bottom">  
+            </div>
+
+            <div class="contanier">
+                <div class="content">
+                    <ul>
+                        <li class="active">Lunch</li>
+                        <li>Dinner</li>
+                        <li>Dessert</li>
+                        <li>Drinks</li>
+                    </ul>
+                </div>
+                <div class="boxs">
+                    <div class="box">
+                        <img src="images/menu1.png" alt="">
+                        <div class="name-price"></div>
+                            <h3>Chicken Burger</h3>
+                            <span>Rs.700.00</span>
+                            <p>A chicken burger makes for a quick midweek meal or weekend BBQ’s with friends! Crispy seasoned chicken breast, topped with
+                         mandatory melted cheese, piled onto soft rolls with onion, avocado, lettuce, tomato and garlic mayo. </p>
+                        </div>
+
+                        <div class="box">
+                            <img src="images/menu4.jpg" alt="">
+                            <div class="name-price"></div>
+                                <h3>Beef Burger</h3>
+                                <span>Rs.790.00</span>
+                                <p>The classic burger is an all time BBQ favourite! This super easy homemade beef burger recipe gives you delicious patties, packed with onions and herbs for extra flavour, 
+                                    that are perfect for topping with cheese, lettuce and tomato, and sandwiching between floury buns. </p>
+                            </div>
+
+                            <div class="box">
+                                <img src="images/menu5.jpeg" alt="">
+                                <div class="name-price"></div>
+                                    <h3>French Fries</h3>
+                                    <span>Rs.900.00</span>
+                                    <p>They're great as a snack or side dish to a Friday night feast</p>
+                                </div>
+
+                                <div class="box">
+                                    <img src="images/menu6.jpg" alt="">
+                                    <div class="name-price"></div>
+                                        <h3>Zinger Burger</h3>
+                                        <span>Rs.950.00</span>
+                                        <p>Zinger, “a quick, witty, pointed remark or answer,” is a derivative of the verb and noun zing, “(to make) a sharp whizzing noise.” 
+                                            It is, unsurprisingly, an American slang term that dates to about 1950.</p>
+                                    </div>
+
+                                    <div class="box">
+                                        <img src="images/menu7.png" alt="">
+                                        <div class="name-price"></div>
+                                            <h3>Special Burger</h3>
+                                            <span>Rs.950.00</span>
+                                            <p>Time to up your burger game! 
+                                            This Special Burger Sauce is a copycat of a popular sauce sold at the grocery store. Super quick. </p>
+                                        </div>
+                                        <div class="box">
+                                            <img src="images/menu3.jpg" alt="">
+                                            <div class="name-price"></div>
+                                                <h3>Chicken Fried Rice</h3>
+                                                <span>Rs.800.00</span>
+                                                <p>Chicken fried rice is a take-out classic and an easy weeknight meal! 
+                                                    This easy recipe is made on the stovetop with chicken, eggs, onions, carrots, peas, and rice. </p>
+                                            </div>
+                    </div>       
+                </div>
+                <a href="#" class="btn">Discover Full Menu</a>
+            </div>
+    </section>
+
+    <!--team-->
+    <section class="team">
+    <div class="team" id="team">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Ready To Serve</span>
+                <h2>Talented Chefs</h2>
+            </div>
+            <div class="arrow-bottom">  
+            </div>
+        </div>
+    </div>
+    <div class="contanier">
+        <div class="boxs">
+            <div class="box">
+                <div class="img-text">
+                    <img src="images/chef1.jpg" alt="" class="img-w">
+                    <div class="text">
+                        <div class="cont-text">
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <p>Passion for cooking is in his genes. He grew up appreciating food and service at an early age.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <h5>Ashif Mohammed</h5>
+                    <p>CEO & founder</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-text">
+                    <img src="images/chef2.jpg" alt="" class="img-w">
+                    <div class="text">
+                        <div class="cont-text">
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <p>Passion for cooking is in his genes. He grew up appreciating food and service at an early age.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <h5>Erik Fernando</h5>
+                    <p>Chinense Master Chef</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-text">
+                    <img src="images/chef3.jpg" alt="" class="img-w">
+                    <div class="text">
+                        <div class="cont-text">
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <p>Passion for cooking is in his genes. He grew up appreciating food and service at an early age.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <h5>Ashen Abdul</h5>
+                    <p>Chef Master</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--guest book-->
+    <section class="guest-book" id="guest-book">
+        <div class="small-sec bg-overlay">
+            <div class="arrow-top"></div>
+            <div class="sec-head">
+                <span>Natural Ingredients</span>
+                <h2>Delicious Recipes</h2>
+            </div>
+
+            <div class="contanier">
+                <div class="boxs">
+                    <div class="box">
+                        <img src="images/ribbon.png" class="ribbon" alt="">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5>"They offer Take away, Delivery and Dine-in facilities for their customers. Small parking area and staff is very friendly. 
+                            Highly recommended for have a Myburger meal with your family, friends and loved ones."</h5>
+                            <img src="images/blog1.png" alt="">
+                            <p>Ravindu Nilanka</p>
+                    </div>
+                    <div class="box">
+                        <img src="images/ribbon.png" class="ribbon" alt="">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5>"Our experience was good, and portion was more than enough for two people(1. Submarine, 2 1/2 Chicken BBQ). But submarine was kind of sweet taste & bbq chicken dish was great. 
+                            They were busy at that moment, but we got our dishes quickly. Conclusion: We enjoyed and satisfied for the amount we paid."</h5>
+                            <img src="images/blog2.png" alt="">
+                            <p>Anjana De Silva</p>
+                    </div>
+                    <div class="box">
+                        <img src="images/ribbon.png" class="ribbon" alt="">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5>"Me and my cousins visited there; 10+ group and they arranged us a better place, so we all can fit perfectly. The crew was so friendly. 
+                            Food was delicious and prices are so reasonable. Loved the experience. Highly recommended for lunch and dinner."</h5>
+                            <img src="images/blog3.png" alt="">
+                            <p>Menuka Adikari</p>
+                    </div>
+                </div>
+            </div>
+            <div class="arrow-bottom">
+            </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer" id="footer">
+        <div class="mg-box">
+            <div class="contanier">
+                <div class="links list">
+                    <h4>Follow Us</h4>
+                    <div class="box-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+
+                </div>
+                <div class="text list">
+                    <h2>myBURGER</h2>
+                    <p>Restaurant in has the perfect place to enjoy fine food and great cocktails with excellent service,
+                        in comfortable atmospheric surroundings. We have a soft dining room, 
+                        combined with an open kitchen, coffe take out bar.</p>
+                </div>
+                <div class="news list">
+                    <h4>NewsLetter</h4>
+                    <div class="inpt">
+                        <input type="email" placeholder="Subscribe Our NewsLetter">
+                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>&copy; 2023 myBURGER | created By <span>Upeksha Bandara</span></p>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
